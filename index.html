@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Simple Quiz</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+	<div class="quiz" id="quiz">
+
+		<div class="quiz-header" id="header">
+			<!-- Заголовок вопроса -->
+			<h2 class="title">Загружаем вопрос...</h2>
+
+			<!-- Результаты викторины -->
+			<h2 class="title">%title%</h2>
+			<h3 class="summary">%message%</h3>
+			<p class="result">%result%</p>
+		</div>
+
+		<ul class="quiz-list" id="list">
+			<li>
+				<label>
+					<input type="radio" class="answer" name="answer" />
+					<span>Ответ...</span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="radio" class="answer" name="answer" />
+					<span>Ответ...</span>
+				</label>
+			</li>
+		</ul>
+
+		<button class="quiz-submit submit" id="submit">Ответить</button>
+
+
+
+	</div>
+	<div class="container--slider">
+		<header class="header-slider">
+			<p class="logo">Подсказка</p>
+		</header>
+
+		<div class="slider" id="slider">
+			<img class="slider--img img-1" src="./img/001.png" alt="Slide 01">
+			<img class="slider--img img-2" src="./img/002.png" alt="Slide 02">
+			<img class="slider--img img-3" src="./img/003.jpeg" alt="Slide 03">
+			<img class="slider--img img-4" src="./img/004.jpg" alt="Slide 04">
+			<img class="slider--img img-5" src="./img/005.jpg" alt="Slide 05">
+		</div>
+
+
+
+	</div>
+	
+	<audio autoplay="autoplay" src="wasser.mp3"></audio>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
